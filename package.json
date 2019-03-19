@@ -1,0 +1,24 @@
+{
+  "name": "@ts-module-for-gas/gas-workflow-kit",
+  "version": "0.0.1",
+  "description": "Workflow module for Slack, Workplace and Email written by TypeScript",
+  "main": "./src/Workflow.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awa2/GAS-WorkflowKit.git"
+  },
+  "author": "awa2 <takanori.awatsu+npm@gmail.com> (Takanori Awatsu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awa2/GAS-WorkflowKit/issues"
+  },
+  "homepage": "https://github.com/awa2/GAS-WorkflowKit#readme",
+  "dependencies": {
+    "@ts-module-for-gas/gas-slack": "^0.2.0",
+    "@ts-module-for-gas/gas-workplace": "0.0.3",
+    "@types/google-apps-script": "0.0.38"
+  }
+}
